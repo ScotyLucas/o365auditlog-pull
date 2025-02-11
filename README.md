@@ -2,7 +2,7 @@
 ## Ez egy pws script ami menti a audit logokat o365-ről.
 
 ## 1. Telepísd a pws-t linuxra:
-  sudo apt update && sudo apt install -y powershell
+    sudo apt update && sudo apt install -y powershell
 
 ## 2. Amint ez kész van nyisd meg a powershell-t linuxon:
    pws
