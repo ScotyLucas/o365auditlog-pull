@@ -11,7 +11,9 @@
      Install-Module Microsoft.Graph -Scope CurrentUser
 
 ## 4. Utána létrehozol egy .ps1 kiterjesztésű fájlt.
-     mkdir entra_audit_log.ps1 
+     nano entra_audit_log.ps1 
+     ## Vagy
+     sudo git clone https://github.com/ScotyLucas/o365auditlog-pull.git
 
 ## 5.  Utána beilleszted a kódot a SAJÁT Entra API-t és beállítod, hogy milyen időközönként fusson le, de ha azt szerkeszted akkor ezt is szerkeszteni kell:
      # Időintervallum beállítása (pl. az utolsó 30 perc)
